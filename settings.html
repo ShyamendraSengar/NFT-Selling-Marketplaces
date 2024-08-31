@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings Page</title>
+    <link rel="icon" href="./assets/Logo (1).png" type="LOGO NFT" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="homestyle.css">
+
+  </head>
+  <body class="dark-theme">
+    <div class="main_container">
+      <div class="menubar">
+        <div class="menu">
+          <a href="index.html"
+            ><img
+              class="menu-icons logo-img"
+              src="./assets/Logo (1).png"
+              alt="Logo"
+          /></a>
+          <a href="dashboard.html"
+            ><img
+              class="menu-icons"
+              src="./assets/DashBoard.png"
+              alt="DashBoard"
+              width="30px"
+              height="30px"
+          /></a>
+          <a href="bid.html"
+            ><img
+              class="menu-icons"
+              src="./assets/bid-active.png"
+              alt="bid-active"
+          /></a>
+          <a href="active-bids.html"
+            ><img
+              class="menu-icons"
+              src="./assets/heart.png"
+              alt="Fav bid-active"
+          /></a>
+          <a href="collection.html"
+            ><img
+              class="menu-icons"
+              src="./assets/Collection.png"
+              alt="Collection"
+          /></a>
+          <a href="#"
+            ><img class="menu-icons" src="./assets/Profile.png" alt="profile"
+          /></a>
+          <a href="settings.html"
+            ><img class="menu-icons" src="./assets/setting.png" alt="setting"
+          /></a>
+        </div>
+        <div class="signout">
+          <img src="./assets/sign-out.png" alt="sign-out" />
+        </div>
+      </div>
+      <div class="container">
+        <header class="header">
+          <a href="index.html"
+            ><img class="logo" src="./assets/Logo (1).png" alt="Logo"
+          /></a>
+          <div class="search-bar">
+            <img
+              class="search-icon"
+              src="./assets/search_png.png"
+              alt=""
+              width="25"
+            />
+            <input type="text" placeholder="Search Here" />
+          </div>
+          <div class="header-icons">
+            <div class="icons">
+              <img
+                src="./assets/mode.png"
+                alt="sun-icon"
+                id="theme-toggle"
+                class="sun-icon"
+              />
+              <img src="./assets/bell.png" alt="bell-icon" class="bell-icon" />
+            </div>
+            <div class="profile">
+              <a href="#"
+                ><img src="./assets/avatar2.png" alt="Profile Picture"
+              /></a>
+            </div>
+          </div>
+        </header>
+        <div class="content">
+          <div class="setting-header">
+            <div class="title">
+                <div class="name">
+                  <h1>Settings</h1>
+                  <p>Welcome Settings Page</p>
+                </div>
+                <div class="home-nav">
+                  <p>Home</p>
+                  <span>></span>
+                  <p>Settings</p>
+                </div>
+            </div>
+          </div>
+            <div class="setting-nav">
+                    <span class="active">Profile</span>
+                    <span>Application</span>
+                    <span>Security</span>
+                    <span>Activity</span>
+                    <span>Payment Method</span>
+                    <span>API</span>
+            </div>
+            <section class="setting-section">
+                <div class="setting-card">
+                    <h2>User Profile</h2>
+                    <div class="setting-content">
+                        <div class="setting-details">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" id="full-name" value="John Smith">
+                        </div>
+                        <div class="setting-picture">
+                            <img src="./assets/profile-user.png" alt="Profile Picture">
+                            <div class="setting-pic-content">
+                                <span>John Smith</span>
+                                <span>Welcome Settings Page</span>
+                            </div>
+                        </div>
+                        <button class="save-button">Save</button>
+                    </div>
+                </div>
+    
+                <div class="update-setting-card">
+                    <h2>Update Profile</h2>
+                    <div class="update-setting-card-content">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="john@example.com">
+    
+                    <label for="password">Password</label>
+                    <input type="password" id="password" value="password123">
+    
+                    <button class="save-button">Save</button>
+                </div>
+                </div>
+            </section>
+    
+            <section class="personal-info-section">
+                <h2>Personal Information</h2>
+                <div class="info-grid">
+                    <input type="text" placeholder="Info">
+                    <input type="text" placeholder="Info">
+                    <input type="text" placeholder="Info">
+                    <input type="text" placeholder="Info">
+                    <input type="text" placeholder="Info">
+                    <input type="text" placeholder="Info">
+                </div>
+                <button class="save-button">Save</button>
+            </section>
+        </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
